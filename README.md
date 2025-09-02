@@ -63,7 +63,7 @@ This tool is ideal for **developers, open-source contributors, and project teams
 ---
 
 ## 📂 Project Structure  
-
+```
 proj/
 │
 ├── .streamlit/
@@ -74,7 +74,7 @@ proj/
 ├── app.py                # Main Streamlit application
 │
 └── requirements.txt      # Project dependencies
-
+```
 ## ⚙ Installation & Setup
 1. Clone the repository
 git clone https://github.com/your-username/ai-readme-generator.git
@@ -98,7 +98,7 @@ GITHUB_TOKEN = "your-gh-token"  # optional but recommended
 5. Run the application
 streamlit run app.py
 
-##🔄 How It Works
+## 🔄 How It Works
 
 Enter a GitHub Repository URL into the input field.
 
@@ -108,7 +108,7 @@ Generate README – Use the integrated AI model to create a professional README.
 
 Preview and Download – Review the output or download it directly.
 
-##🎯 Benefits
+## 🎯 Benefits
 
 Time Saving – Automates manual README writing.
 
@@ -118,7 +118,7 @@ Customizable – Add custom instructions for tailored results.
 
 Developer-Friendly – Simple setup with a clean, interactive interface.
 
-##💻 Usage
+## 💻 Usage
 
 Open the app in your browser after running the Streamlit server.
 
@@ -128,13 +128,7 @@ Optionally, add custom instructions for the AI to follow.
 
 Click Generate README to view and download your new file.
 
-📸 Output Examples
-Input	Output
-Public GitHub URL	AI-generated README.md with badges, structure, and professional formatting.
-
-(You can include screenshots of your app here)
-
-##🤝 Contributing
+## 🤝 Contributing
 
 We welcome contributions!
 
@@ -146,16 +140,16 @@ Commit your changes
 
 Submit a pull request
 
-##📜 License
+## 📜 License
 
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute it with attribution.
 
-##🙌 Acknowledgements
+## 🙌 Acknowledgements
 
 Special thanks to Winger IT Solutions for their guidance and support during my internship.
 
-##🧾 Requirements
+## 🧾 Requirements
 
 Here’s a recommended requirements.txt:
 
