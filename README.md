@@ -75,3 +75,104 @@ proj/
 ├── app.py                # Main Streamlit application
 │
 └── requirements.txt      # Project dependencies
+
+⚙ Installation & Setup
+1. Clone the repository
+git clone https://github.com/your-username/ai-readme-generator.git
+cd ai-readme-generator
+
+2. Create and activate a virtual environment
+python -m venv venv
+source venv/bin/activate   # For Linux/Mac
+venv\Scripts\activate      # For Windows
+
+3. Install dependencies
+pip install -r requirements.txt
+
+4. Configure API keys
+
+Create a .streamlit/secrets.toml file:
+
+HUGGINGFACE_API_KEY = "your-hf-api-key"
+GITHUB_TOKEN = "your-gh-token"  # optional but recommended
+
+5. Run the application
+streamlit run app.py
+
+🔄 How It Works
+
+Enter a GitHub Repository URL into the input field.
+
+Analyze Repository – Fetch metadata, structure, and language statistics.
+
+Generate README – Use the integrated AI model to create a professional README.md.
+
+Preview and Download – Review the output or download it directly.
+
+🎯 Benefits
+
+Time Saving – Automates manual README writing.
+
+Professional Output – Ensures clean, structured documentation.
+
+Customizable – Add custom instructions for tailored results.
+
+Developer-Friendly – Simple setup with a clean, interactive interface.
+
+💻 Usage
+
+Open the app in your browser after running the Streamlit server.
+
+Paste the GitHub repository URL you want to analyze.
+
+Optionally, add custom instructions for the AI to follow.
+
+Click Generate README to view and download your new file.
+
+📸 Output Examples
+Input	Output
+Public GitHub URL	AI-generated README.md with badges, structure, and professional formatting.
+
+(You can include screenshots of your app here)
+
+🤝 Contributing
+
+We welcome contributions!
+
+Fork the repository
+
+Create a feature branch (feature/your-feature-name)
+
+Commit your changes
+
+Submit a pull request
+
+📜 License
+
+This project is licensed under the MIT License.
+You are free to use, modify, and distribute it with attribution.
+
+🔗 GitHub Repository
+
+Click here to view the project
+
+🙌 Acknowledgements
+
+Special thanks to Winger IT Solutions for their guidance and support during my internship.
+
+🧾 Requirements
+
+Here’s a recommended requirements.txt:
+
+streamlit
+requests
+PyGithub
+langchain
+langchain-community
+huggingface_hub
+python-dotenv
+
+
+Install everything with:
+
+pip install -r requirements.txt
