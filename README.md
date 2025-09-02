@@ -92,8 +92,8 @@ pip install -r requirements.txt
 
 Create a .streamlit/secrets.toml file:
 
-HUGGINGFACE_API_KEY = "your-hf-api-key"
-GITHUB_TOKEN = "your-gh-token"  # optional but recommended
+1. HUGGINGFACE_API_KEY = "your-hf-api-key"
+2. GITHUB_TOKEN = "your-gh-token"  # optional but recommended
 
 5. Run the application
 streamlit run app.py
@@ -152,7 +152,7 @@ Special thanks to Winger IT Solutions for their guidance and support during my i
 ## 🧾 Requirements
 
 Here’s a recommended requirements.txt:
-
+```
 streamlit
 requests
 PyGithub
@@ -160,7 +160,7 @@ langchain
 langchain-community
 huggingface_hub
 python-dotenv
-
+```
 
 Install everything with:
 
